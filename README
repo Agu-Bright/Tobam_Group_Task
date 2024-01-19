@@ -31,3 +31,30 @@ Before you begin, ensure you have the following installed:
    ```bash
    https://github.com/Agu-Bright/Tobam_Group_Task
    cd image-upload-api
+
+2. Install dependencies
+
+   ```bash
+   npm install
+
+3. Setup environment variables
+   MONGO_URI = "mongodb://127.0.0.1:27017/" //you can use your mongodb uri
+   NODE_ENV = "PRODUCTION"
+   PORT = 3000
+
+4. Usage
+
+   ```bash
+   npm start
+
+API ENDPOINTS
+1. POST/upload
+   -Upload an image using the "file" field in a form-data request.
+   -The server processes the image, saves it to mongoDB and returns a JSON response with details about the uploaded image.
+
+2. GET/get_image/:id
+   -Retrieve a saved image from the database using its secure URL
+   -Replace ":id" with the actual ID of the image
+
+
+
