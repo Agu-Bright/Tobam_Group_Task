@@ -1,7 +1,6 @@
 # Image Upload and Retrieval API
 
-[Click to open documentation](https://docs.google.com/document/d/1pV6-J2fNDtGxTg8vCGPR3WENtn_OMVgr/edit?rtpof=true&sd=true)
-
+[Link to documentation](https://docs.google.com/document/d/1pV6-J2fNDtGxTg8vCGPR3WENtn_OMVgr/edit?rtpof=true&sd=true)
 
 This project provides a simple API for handling image uploads and retrievals. It includes two main endpoints:
 
