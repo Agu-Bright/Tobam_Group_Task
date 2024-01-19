@@ -1,0 +1,33 @@
+# Image Upload and Retrieval API
+
+This project provides a simple API for handling image uploads and retrievals. It includes two main endpoints:
+
+1. **POST /upload:** Upload an image, process it, and save it to a MongoDB database.
+2. **GET /get_image/:id:** Retrieve a saved image from the database using its secure URL.
+
+## Introduction
+
+This project aims to simplify the process of handling image uploads and retrievals through a RESTful API. It leverages Node.js, Express, MongoDB, and Multer to provide a straightforward solution for storing and retrieving images securely.
+
+## Features
+
+- Image upload and processing.
+- Secure retrieval of saved images through unique URLs.
+- MongoDB integration for data storage.
+
+## Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/try/download/community)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   https://github.com/Agu-Bright/Tobam_Group_Task
+   cd image-upload-api
